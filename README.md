@@ -1,6 +1,6 @@
-Para rodar o servidor e cliente, abra dois terminais.
+## Para rodar o servidor e cliente, abra dois terminais.
 
-Para comunicação simples do cliente com o servidor use a pasta unidirectional.
+### Para comunicação simples do cliente com o servidor use a pasta unidirectional.
 
 No terminal do servidor:
 
@@ -18,7 +18,7 @@ javac Client.java
 java Client
 ```
 
-Para comunicação dupla use a pasta bidirectional.
+### Para comunicação dupla use a pasta bidirectional.
 
 No terminal do servidor:
 
@@ -36,7 +36,7 @@ javac Client.java
 java Client
 ```
 
-Para passar arquivos do tipo json use a pasta file_transfer.
+### Para passar arquivos do tipo json use a pasta file_transfer.
 
 No terminal do servidor:
 
@@ -54,7 +54,7 @@ javac -cp ./lib/json-20240303.jar Client.java
 java -cp .:./lib/json-20240303.jar Client
 ```
 
-Para utilizar requisições HTTP com JSON:
+### Para utilizar requisições HTTP com JSON use a pasta httpJson.
 
 No terminal do servidor:
 
