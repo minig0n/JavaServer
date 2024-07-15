@@ -4,12 +4,6 @@ import java.net.URL;
 import com.google.gson.Gson;
 import com.google.gson.JsonObject;
 
-/*
-Para compilar e executar no terminal:
-$ cd http-example
-$ javac -cp .:gson-2.8.6.jar com/example/HttpClientExample.java
-$ java -cp .:gson-2.8.6.jar com.example.HttpClientExample
-*/
 
 public class Client {
     public static void main(String[] args) {
