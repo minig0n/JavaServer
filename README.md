@@ -53,3 +53,21 @@ cd file_transfer
 javac -cp ./lib/json-20240303.jar Client.java
 java -cp .:./lib/json-20240303.jar Client
 ```
+
+Para utilizar requisições HTTP com JSON:
+
+No terminal do servidor:
+
+```
+cd httpJson
+javac -cp ./lib/gson-2.11.0.jar Server.java
+java -cp .:./lib/gson-2.11.0.jar Server
+```
+
+No terminal do cliente:
+
+```
+cd httpJson
+javac -cp ./lib/gson-2.11.0.jar Client.java
+java -cp .:./lib/gson-2.11.0.jar Client
+```
